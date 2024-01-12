@@ -667,7 +667,7 @@ int main()
                     }
                     cout << endl;
                 }
-                std::this_thread::sleep_for(std::chrono::seconds(3)); 
+                std::this_thread::sleep_for(std::chrono::seconds(3)); //Para esto he usado chatgpt
                 system("cls");
                 b1turno = true;
             }
@@ -744,7 +744,3 @@ int main()
     }
 
 };
-
-
-
-
