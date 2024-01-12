@@ -17,7 +17,7 @@ int main()
     bool bPartida = false;
     srand(static_cast<unsigned>(time(nullptr)));  // Cambio en la semilla de srand
 
-    int iNumerobarcos[4] = { 3, 4, 5, 6 };
+    int iNumerobarcos[4] = { 3, 4, 5, 6 }; 
 
     for (int i = 0; i < iFilas; ++i)
     {
@@ -37,11 +37,6 @@ int main()
     bool bBarco4j2 = false;
     bool bBarco3j1 = false;
     bool bBarco3j2 = false;
-
-    
-
-
-
     // Generar Barcos
     //Jugador 1
     // Barco 6
