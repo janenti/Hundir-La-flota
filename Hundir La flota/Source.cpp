@@ -711,7 +711,7 @@ int main()
                 cout << "\nAgua";
                 cTableroJugador1[iVertical1][iHorizontal1] = 'X';
             }
-            if (iContador1 == 25)
+            if (iContador1 == 18)
             {   
                 system("cls"); 
                 cout << "\nVictoria!!!!";   
@@ -734,7 +734,7 @@ int main()
                 cout << "\nAgua\n"; 
                 cTableroJugador2[iVertical2][iHorizontal2] = 'X';
             }
-            if (iContador2 == 25)
+            if (iContador2 == 18)
             {
                 system("cls");  
                 cout << "\nVictoria!!!!"; 
