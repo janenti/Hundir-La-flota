@@ -671,6 +671,7 @@ int main()
                 system("cls");
                 b1turno = true;
             }
+            b1turno = true
             // Tablero Jugador 1
 
             cout << "\nTablero del Jugador 1:" << endl;
